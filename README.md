@@ -32,13 +32,14 @@
 
 2. 安裝依賴
 
-Bash
+```bash
 
 pip install -r requirements.txt
+```
 
 3. 設定環境變數 請確保你有 Groq 的 API Key。 (Mac/Linux)
 
-Bash
+```bash
 
 export GROQ_API_KEY='your_api_key_here'
 (Windows PowerShell)
@@ -46,12 +47,12 @@ export GROQ_API_KEY='your_api_key_here'
 PowerShell
 
 $env:GROQ_API_KEY='your_api_key_here'
-
+```
 4. 執行程式
 
-Bash
+```bash
 
 python app.py
-
+```
 📝 授權 (License)
 MIT License
