@@ -25,6 +25,33 @@
 如果你想在自己的電腦上測試這個專案：
 
 1. **Clone 專案**
+   *(如果您更改了專案名稱，請確認下方的網址是否正確)*
    ```bash
-   git clone [https://github.com/petertseng0517/hualien_gov.git](https://github.com/petertseng0517/hualien_gov.git)
-   cd hualien_gov
+   git clone [https://github.com/petertseng0517/magistrate-response-generator.git](https://github.com/petertseng0517/magistrate-response-generator.git)
+   cd magistrate-response-generator
+
+2. 安裝依賴
+
+Bash
+
+pip install -r requirements.txt
+
+3. 設定環境變數 請確保你有 Groq 的 API Key。 (Mac/Linux)
+
+Bash
+
+export GROQ_API_KEY='your_api_key_here'
+(Windows PowerShell)
+
+PowerShell
+
+$env:GROQ_API_KEY='your_api_key_here'
+
+4. 執行程式
+
+Bash
+
+python app.py
+
+📝 授權 (License)
+MIT License
